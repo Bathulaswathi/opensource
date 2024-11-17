@@ -1,0 +1,2 @@
+num_assigments, time_per_assigments, extra = map(int, input().split())
+print("YES" if num_assigments * time_per_assigments <= 2880 else "NO")
